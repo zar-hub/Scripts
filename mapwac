@@ -7,27 +7,25 @@
 # TODO
 # Check if NAME and ID are the same lenght
 # Check if selected device is in range
+# Do not print the selection when "read"
 
 NAME=$(xinput --list --name-only)
 ID=$(xinput --list --id-only)
-SCR=$(xrandr | grep " connected " | grep -Eo '^[^ ]+')
+SCR=$(xrandr | grep " connected " | grep -Eo '^[^ ]+') # get first word only
 
 # generate id array
 for word in $ID; do
-	#echo $word
 	id_arr+=( $word ) 
 done
 
-
 # generate scr array
 for word in $SCR; do
-	#echo $word
 	scr_arr+=( $word ) 
 done
 
 # loop trough every line in INPUT_NAME and find wacom devices
-IFS=$(printf '\n.')       # make newlines the only separator
-set -f          # disable globbing
+IFS=$(printf '\n.')       	# make newlines the only separator
+set -f         				# disable globbing
 i=0
 echo "Devices:"
 for line in  $NAME; do
@@ -48,4 +46,3 @@ read a
 for d in ${dev[@]}; do
 	xinput map-to-output $d ${scr_arr[a]}
 done
-
