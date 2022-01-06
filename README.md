@@ -27,7 +27,7 @@ script_name
 ```
 
 # Scripts
-
+Here is a list with all the availabe scripts with a brief description.
 ## mapwac
 This script is used to map a wacom tablet (or any graphic tablet)
 to a specific display in a multi-monitor setup.
