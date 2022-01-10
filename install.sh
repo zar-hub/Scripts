@@ -16,3 +16,9 @@ echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://
 # Update and install syncthing:
 sudo apt-get update
 sudo apt-get install syncthing
+
+if [ $(dpkg-query -W -f='${Status}' nano 2>/dev/null | grep -c "ok installed") -eq 0 ];
+then
+  apt-get install nano;
+fi
+
