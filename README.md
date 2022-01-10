@@ -25,6 +25,10 @@ echo -e "#\nDEBIAN_LEMON_FLAVOR: grant permissions\n yourusername ALL=(ALL) NOPA
 ```
 ./packages.sh
 ```
+4. On laptop install tlp
+```
+sudo apt intall tlp
+```
 
 ## Theme
 #82FB6C
