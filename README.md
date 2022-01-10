@@ -9,6 +9,7 @@ What i want:
 - xournal
 - ms teams
 - todoist
+- alacritty
 
 ## Installation
 1. Add you user to sudoers manually with this command:
