@@ -4,7 +4,7 @@ What i want:
 
 - tiling window manager [pop-shell](https://github.com/pop-os/shell)
 - minimalist look
-- sync useful data across devices with <img src="/repo-img/syncthing.svg" width="100px">
+- sync useful data across devices with <img src="/repo-img/syncthing.svg" width="60px">
 - Git Desktop
 - xournal
 - ms teams
