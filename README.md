@@ -28,3 +28,4 @@ echo -e "#\nDEBIAN_LEMON_FLAVOR: grant permissions\n yourusername ALL=(ALL) NOPA
 
 ## Theme
 #82FB6C
+modify ".local/share/gnome-shell/extensions/pop-shell/light.css" to make active hint smaller (aka border of active window)
