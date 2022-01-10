@@ -25,8 +25,7 @@ echo -e "#\nDEBIAN_LEMON_FLAVOR: grant permissions\n yourusername ALL=(ALL) NOPA
 ```
 ./packages.sh
 ```
-4.
-Go to gnome-tweaks and enable syncthing at stratup
+4. Go to gnome-tweaks and enable syncthing at stratup
 
 5. On laptop install tlp
 ```
