@@ -1,4 +1,4 @@
-# DEBIAN lemon flavor <div background="#82FB6C"><img src="/repo-img/lemon.png" width="50px" ></div>
+# DEBIAN lemon flavor
 
 What i want:
 
