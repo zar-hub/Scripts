@@ -4,5 +4,5 @@ What i want:
 
 - tiling window manager [pop-shell](https://github.com/pop-os/shell)
 - minimalist look
-- synch useful data across devices
+- sync useful data across devices with ![syncthing](/repo-img/syncthing.svg)
 - Git Desktop
