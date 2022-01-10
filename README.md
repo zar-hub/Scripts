@@ -32,3 +32,4 @@ sudo apt intall tlp
 
 ## Theme
 #82FB6C
+modify ".local/share/gnome-shell/extensions/pop-shell/light.css" to make active hint smaller (aka border of active window)
