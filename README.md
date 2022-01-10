@@ -32,6 +32,8 @@ Here is a list with all the availabe scripts with a brief description.
 This script is used to map a wacom tablet (or any graphic tablet)
 to a specific display in a multi-monitor setup.
 Just run the script and select a monitor and everything should just be fine.
+## moodle.py
+Script that logs in to the school cloud service. *BEFORE USAGE OPEN THE SCRIPT AND INSERT USER AND PASSWORD*.
 
 # Contributing
 When adding a new script remeber to add the alisas in ".bashrc"
