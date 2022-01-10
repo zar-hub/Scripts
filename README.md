@@ -25,3 +25,6 @@ echo -e "#\nDEBIAN_LEMON_FLAVOR: grant permissions\n yourusername ALL=(ALL) NOPA
 ```
 ./packages.sh
 ```
+
+## Theme
+#82FB6C
