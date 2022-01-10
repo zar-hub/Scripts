@@ -1,4 +1,4 @@
-# DEBIAN lemon flavor <img src="/repo-img/lemon.png" width="100px">
+# DEBIAN lemon flavor <img src="/repo-img/lemon.png" width="50px">
 
 What i want:
 
