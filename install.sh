@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # SECTION ~ packages
-sudo apt-get install git make node-typescript snapd flatpak xournal neovim neofetch preload
+sudo apt-get install make node-typescript snapd flatpak xournal neovim neofetch preload
 
 # SECTION ~ nvidia driver
 sudo apt-get install nvidia-detect
@@ -15,9 +15,9 @@ nvidia-detect
 
 # SECTION ~ pop shell extension https://github.com/pop-os/shell
 cd ~
-#git clone https://github.com/pop-os/shell.git
-#cd shell
-#make local-install
+git clone https://github.com/pop-os/shell.git
+cd shell
+make local-install
 rm -r ~/shell
 
 # SECTION ~ Syncthing https://apt.syncthing.net/ 
