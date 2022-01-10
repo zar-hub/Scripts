@@ -6,6 +6,9 @@ What i want:
 - minimalist look
 - sync useful data across devices with <img src="/repo-img/syncthing.svg" width="100px">
 - Git Desktop
+- xournal
+- ms teams
+- todoist
 
 ## Installation
 1. Add you user to sudoers manually with this command:
