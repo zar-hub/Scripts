@@ -6,3 +6,5 @@ What i want:
 - minimalist look
 - sync useful data across devices with <img src="/repo-img/syncthing.svg" width="100px">
 - Git Desktop
+
+## Installation
