@@ -8,3 +8,8 @@ What i want:
 - Git Desktop
 
 ## Installation
+1. Add you user to sudoers manually with this command:
+```
+su - root
+echo -e "#\nDEBIAN_LEMON_FLAVOR: grant permissions\n yourusername ALL=(ALL) NOPASSWD:ALL" | sudo EDITOR='tee -a' visudo
+```
