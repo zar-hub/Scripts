@@ -13,7 +13,11 @@ What i want:
 su - root
 echo -e "#\nDEBIAN_LEMON_FLAVOR: grant permissions\n yourusername ALL=(ALL) NOPASSWD:ALL" | sudo EDITOR='tee -a' visudo
 ```
-2. The script will automatically reboot. Install alacritty manually:
+2. Launch the script
 ```
-sudo snap install alacritty --classic
+./install.sh
+```
+3. The script will automatically reboot. Install other packages:
+```
+./packages.sh
 ```
