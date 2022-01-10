@@ -1,10 +1,24 @@
 # SECTION ~ Hi
 echo "Hi, startup script initialized..."
 
-# SECTION ~ sudoers privileges
-echo "Adding your user to sudoers... Currently the only user that will be added is 'zar'"
-su -
-echo -e "# DEBIAN_LEMON_FLAVOR: grant permissions\nzar ALL=(ALL) NOPASSWD:ALL" >> file.txt
+# SECTION ~ standard update
+sudo apt-get update
+sudo apt-get upgrade
+
+# SECTION ~ packages
+sudo apt-get install git make node-typescript snapd flatpak xournal neovim neofetch preload
+
+# SECTION ~ nvidia driver
+sudo apt-get install nvidia-detect
+nvidia-detect
+#add stuff here
+
+# SECTION ~ pop shell extension https://github.com/pop-os/shell
+cd ~
+#git clone https://github.com/pop-os/shell.git
+#cd shell
+#make local-install
+rm -r ~/shell
 
 # SECTION ~ Syncthing https://apt.syncthing.net/ 
 # Add the release PGP keys:
@@ -17,8 +31,5 @@ echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://
 sudo apt-get update
 sudo apt-get install syncthing
 
-if [ $(dpkg-query -W -f='${Status}' nano 2>/dev/null | grep -c "ok installed") -eq 0 ];
-then
-  apt-get install nano;
-fi
-
+# SECTION ~ Theme
+cp gtk-3.0/gtk.css ~/.config/gtk-3.0
