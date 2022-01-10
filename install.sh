@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # SECTION ~ packages
-sudo apt-get install make node-typescript snapd flatpak xournal neovim neofetch preload
+sudo apt-get install make node-typescript xournal neovim neofetch preload
 
 # SECTION ~ nvidia driver
 sudo apt-get install nvidia-detect
