@@ -1,4 +1,4 @@
-# DEBIAN lemon flavor <img src="/repo-img/lemon.png" width="50px" style="background-color:white; border-radius:5px;">
+# DEBIAN lemon flavor <img src="/repo-img/lemon.png" width="50px" style="background-color: rgb(255,255,255); border-radius: 5px;">
 
 What i want:
 
