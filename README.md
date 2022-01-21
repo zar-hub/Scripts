@@ -10,6 +10,8 @@ What i want:
 - ms teams
 - todoist
 - alacritty
+- mark text
+- working on type I hypervisor setup
 
 ## Installation
 1. Add you user to sudoers manually with this command:
